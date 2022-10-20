@@ -1,0 +1,32 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Bstory Gui", "BloodTheme")
+
+local Main = Window:NewTab("Farm")
+local MainSection = Main:NewSection("All Script farm (MMB)")
+
+
+MainSection:NewButton("Auto Farm chest", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BstoryVn/AutoChest/FreeScript/source", true))()
+end)
+
+
+MainSection:NewButton("Mokuro Hub", "", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+MainSection:NewButton("W-azure Hub Aim", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/W-azure/Free/huhubileaksource.lua"))()
+end)
+
+
+local Main = Window:NewTab("Race")
+local MainSection = Main:NewSection("Script Race v4")
+
+
+MainSection:NewButton("Mink v4", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BstoryVn/MinhV4BloxFruits/FreeScript/ScriptByBstory"))()
+end)
+
+
+
+
