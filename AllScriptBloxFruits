@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/BstoryVn/LibraryGui/FreeScript/ScriptBloxFruit
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BstoryVn/LibraryGui/FreeScript/ScriptBloxFruit"))()
